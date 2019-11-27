@@ -1,0 +1,80 @@
+body{
+    font-family: 'Playfair Display', serif;
+    
+}
+
+header{
+    background-image: url(img/banner.jpg);
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(46, 36, 36);
+    -webkit-backdrop-filter: drop-shadow(4px 4px 10px blue);
+    filter: drop-shadow(4px 4px 10px blue);
+}
+
+h1{
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    font-size: 46;
+    background-color: rgba(0, 0, 0, 0.192)
+}
+
+main{ 
+    padding: top 20px;
+    height: 100vh;
+}
+
+footer{
+    background: black;
+    height: 10vh;
+}
+
+.location{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+    -webkit-backdrop-filter: invert(100%);
+    filter: invert(100%);
+    -webkit-backdrop-filter: drop-shadow(4px 4px 10px orange);
+    filter: drop-shadow(4px 4px 10px orange);
+    
+}
+
+figure{
+    width: 450px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    position: relative;
+    }
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+    color: rgb(255, 0, 0);
+}
+
+img{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rabbit{
+    border: 1px solid #531919;
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+    -webkit-backdrop-filter: invert(100%);
+    filter: invert(100%);
+    filter: sepia(90%);
+}
